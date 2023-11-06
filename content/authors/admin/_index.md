@@ -51,6 +51,11 @@ education:
 skills:
   - name: Technical
     items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
       - name: Unreal Engine
         description: ''
         percent: 90
