@@ -1,11 +1,11 @@
 ---
 title: A Comprehensive Handball Dynamics Dataset for Game State Classification
 authors:
-- Omar A Mures
+- Omar A. Mures
 - Javier Taibo
-- Emilio J Padrón
-- Jose A Iglesias-Guitian
-date: -01-01
+- Emilio J. Padrón
+- Jose A. Iglesias-Guitian
+date: 2023-01-01
 publishDate: '2023-11-06T10:13:39.613677Z'
 publication_types:
 - article-journal

@@ -3,8 +3,8 @@ title: "PlayNet: real-time handball play classification with Kalman embeddings a
 authors:
 - admin
 - Javier Taibo
-- Emilio J Padrón
-- Jose A Iglesias-Guitian
+- Emilio J. Padrón
+- Jose A. Iglesias-Guitian
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
@@ -12,7 +12,7 @@ date: "2023-08-07T00:00:00Z"
 doi: "https://doi.org/10.1007/s00371-023-02972-1"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-08-07T00:00:00Z"
+publishDate: "2023-11-06T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
