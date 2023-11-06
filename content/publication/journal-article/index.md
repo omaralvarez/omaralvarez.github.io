@@ -39,7 +39,7 @@ featured: true
 # links:
 # - name: ""
 # url: "https://link.springer.com/article/10.1007/s00371-023-02972-1"
-url_pdf: https://link.springer.com/content/pdf/10.1007/s00371-023-02972-1.pdf?pdf=button
+url_pdf: https://link.springer.com/content/pdf/10.1007/s00371-023-02972-1.pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
