@@ -38,14 +38,14 @@ featured: true
 
 # links:
 # - name: ""
-url: "https://link.springer.com/article/10.1007/s00371-023-02972-1"
+# url: "https://link.springer.com/article/10.1007/s00371-023-02972-1"
 url_pdf: https://link.springer.com/content/pdf/10.1007/s00371-023-02972-1.pdf?pdf=button
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
-# url_source: ''
+# url_source: 'https://link.springer.com/article/10.1007/s00371-023-02972-1'
 # url_video: ''
 
 # Featured image
@@ -69,13 +69,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://wowchemy.com/docs/content/writing-markdown-latex/).
