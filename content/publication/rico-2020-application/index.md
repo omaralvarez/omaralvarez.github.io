@@ -2,10 +2,10 @@
 title: An application of fish detection based on eye search with artificial vision
   and artificial neural networks
 authors:
-- Ángel J Rico-Dı́az
-- Juan R Rabuñal
+- Ángel J. Rico-Dı́az
+- Juan R. Rabuñal
 - Marcos Gestal
-- Omar A Mures
+- Omar A. Mures
 - Jerónimo Puertas
 date: '2020-01-01'
 doi: 'https://doi.org/10.3390/w12113013'
