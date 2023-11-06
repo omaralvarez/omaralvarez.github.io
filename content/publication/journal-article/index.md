@@ -34,7 +34,7 @@ tags:
 - Kalman Filtering
 - Dimensionality Reduction
 - Deep Learning
-featured: false
+featured: true
 
 # links:
 # - name: ""
