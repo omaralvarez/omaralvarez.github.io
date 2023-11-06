@@ -52,7 +52,7 @@ url_pdf: https://link.springer.com/content/pdf/10.1007/s00371-023-02972-1.pdf?pd
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'System overview of PlayNet.'
-  focal_point: ""
+  focal_point: "Right"
   preview_only: false
 
 # Associated Projects (optional).
