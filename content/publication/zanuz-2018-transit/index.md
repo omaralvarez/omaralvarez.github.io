@@ -11,4 +11,6 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the Workshop on In Situ Infrastructures for Enabling
   Extreme-Scale Analysis and Visualization*'
+doi: 'https://doi.org/10.1145/3281464.3281469'
+url_pdf: https://ruc.udc.es/dspace/bitstream/handle/2183/32255/Padron_Emilio_2018_In-transit_analysis_Apache_flink.pdf
 ---
