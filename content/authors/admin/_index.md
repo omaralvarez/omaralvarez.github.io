@@ -117,6 +117,9 @@ social:
   - icon: youtube
     icon_pack: fab
     link: https://www.youtube.com/@UnrealGems
+  - icon: unrealengine
+    icon_pack: icon
+    link: https://dev.epicgames.com/community/profile/knl9/UnrealGems#learning
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
