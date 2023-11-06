@@ -51,16 +51,16 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Python
+      - name: Epic Games
         description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
+        percent: 90
+        icon: epicgames
+        icon_pack: icon
+      # - name: Data Science
+      #   description: ''
+      #   percent: 100
+      #   icon: chart-line
+      #   icon_pack: fas
       #- name: SQL
       #  description: ''
       #  percent: 40
