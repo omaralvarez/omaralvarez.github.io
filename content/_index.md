@@ -102,8 +102,8 @@ sections:
           date_end: '2024-06-20'
           date_start: '2023-06-20'
           description: 'The recipient of this badge is qualified as an Authorized Instructor for Unreal Engine 5.'
-          icon: epicgames
           icon_pack: icon
+          icon: epicgames
           organization: Epic Games
           organization_url: https://www.epicgames.com
           title: UE5 Unreal Authorized Instructor
