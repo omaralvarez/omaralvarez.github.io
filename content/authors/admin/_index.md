@@ -51,10 +51,10 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Epic Games
+      - name: Unreal Engine
         description: ''
         percent: 90
-        icon: epicgames
+        icon: unrealengine
         icon_pack: icon
       # - name: Data Science
       #   description: ''

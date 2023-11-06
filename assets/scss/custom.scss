@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?9p8xj5');
-  src:  url('../fonts/icomoon.eot?9p8xj5#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?9p8xj5') format('truetype'),
-    url('../fonts/icomoon.woff?9p8xj5') format('woff'),
-    url('../fonts/icomoon.svg?9p8xj5#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?taq88q');
+  src:  url('fonts/icomoon.eot?taq88q#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?taq88q') format('truetype'),
+    url('fonts/icomoon.woff?taq88q') format('woff'),
+    url('fonts/icomoon.svg?taq88q#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-epicgames:before {
+.icon-unrealengine:before {
   content: "\e900";
+}
+.icon-epicgames1:before {
+  content: "\e901";
 }
