@@ -30,7 +30,6 @@ bio: My research interests include Deep Learning, Computer Vision and Computer G
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Deep Learning
   - Computer Vision
   - Computer Graphics
 
@@ -121,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Omar A. Mures is a professor at Universidad da Coruña. His research interests include distributed Artificial Intelligence, Computer Vision and Computer Graphics.
+Omar A. Mures is an Instructor at Universidade da Coruña. His research interests include Artificial Intelligence, Computer Vision and Computer Graphics.
 {style="text-align: justify;"}
