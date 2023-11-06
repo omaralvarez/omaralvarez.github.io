@@ -9,5 +9,5 @@ publishDate: '2023-11-06T10:13:39.591659Z'
 publication_types:
 - paper-conference
 publication: '*JP2016-XXVII Jornadas de Paralelismo*'
-pdf_url: https://hal.science/hal-01856367v1/document
+url_pdf: https://hal.science/hal-01856367v1/document
 ---
