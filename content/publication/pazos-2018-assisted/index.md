@@ -21,7 +21,7 @@ tags:
 - Point Cloud Representation
 - Genetic Morphogenesis
 - Unstructured Point Clouds
-- Point-Based Genetic Algorithm
+- Point Based Genetic Algorithm
 - Geometrically Complex Surface Design
 image:
   caption: '3D model of tower design using GP morphogenesis.'
