@@ -23,7 +23,8 @@ tags:
 - Stereo Vision
 - Eye Detection
 image:
-  caption: 'Combining multiple point cloud datasets.'
+  caption: 'System operation.'
   focal_point: ""
   preview_only: false
+  
 ---
