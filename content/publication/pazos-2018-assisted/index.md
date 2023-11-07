@@ -27,4 +27,5 @@ image:
   caption: '3D model of tower design using GP morphogenesis.'
   focal_point: ""
   preview_only: false
+  
 ---
