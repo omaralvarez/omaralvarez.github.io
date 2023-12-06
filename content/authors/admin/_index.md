@@ -31,13 +31,13 @@ bio: My research interests include Deep Learning, Computer Vision and Computer G
 interests:
   - name: Artificial Intelligence
     icon: robot
-    icon_pack: solid
+    icon_pack: fas
   - name: Computer Vision
     icon: eye
-    icon_pack: solid
+    icon_pack: far
   - name: Computer Graphics
     icon: cube
-    icon_pack: solid
+    icon_pack: fas
 
 # Education to show in About widget
 education:
