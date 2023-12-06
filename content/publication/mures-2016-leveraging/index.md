@@ -1,7 +1,7 @@
 ---
 title: Leveraging the Power of Big Data Tools for Large Scale Molecular Dynamics Analysis
 authors:
-- Omar A. Mures
+- admin
 - Emilio J. Padrón
 - Bruno Raffin
 date: '2016-01-01'

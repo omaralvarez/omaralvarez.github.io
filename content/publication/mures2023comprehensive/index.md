@@ -2,7 +2,7 @@
 title: A Comprehensive Handball Dynamics Dataset for Game Situation Classification
 
 authors:
-- Omar A. Mures
+- admin
 - Javier Taibo
 - Emilio J. Padrón
 - Jose A. Iglesias-Guitian
@@ -21,7 +21,7 @@ abstract: 'This article presents a comprehensive dataset of labeled game situati
 summary: 'This article presents a comprehensive dataset of labeled game situations obtained from multiple professional handball matches, which corresponds to the research paper entitled PlayNet: Real-time Handball Play Classification with Kalman Embeddings and Neural Networks. The dataset encompasses approximately 11 hours of footage from five handball games played in two different arenas, resulting in around 1 million data frames.'
 
 doi: 'https://doi.org/10.1016/j.dib.2023.109848'
-url_preprint: 'https://www.sciencedirect.com/science/article/pii/S2352340923009101/pdfft?md5=d4ae3ab5ae2a12fc2e36feb70504ca3f&pid=1-s2.0-S2352340923009101-main.pdf'
+url_pdf: 'https://www.sciencedirect.com/science/article/pii/S2352340923009101/pdfft?md5=d4ae3ab5ae2a12fc2e36feb70504ca3f&pid=1-s2.0-S2352340923009101-main.pdf'
 
 tags: 
 - Sports

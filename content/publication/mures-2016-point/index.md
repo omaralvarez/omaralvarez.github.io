@@ -2,7 +2,7 @@
 title: 'Point Cloud Manager: Applications of a Middleware for Managing Huge Point
   Clouds'
 authors:
-- Omar A. Mures
+- admin
 - Alberto Jaspe
 - Emilio J. Padrón
 - Juan R. Rabuñal

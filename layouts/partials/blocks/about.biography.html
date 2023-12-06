@@ -103,9 +103,14 @@
         <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
         <ul class="ul-interests fa-ul mb-0">
           {{ range . }}
+          {{ $pack := or .icon_pack "fas" }}
+          {{ $pack_prefix := $pack }}
+          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+            {{ $pack_prefix = "fa" }}
+          {{ end }}
           <li>
-            <i class="fa-li fa-solid fa-flask"></i>
-            {{ . | markdownify | emojify }}
+            <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+            {{ .name | markdownify | emojify }}
           </li>
           {{ end }}
         </ul>

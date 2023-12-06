@@ -2,7 +2,7 @@
 title: A Multiresolution System for Managing Massive Point Cloud Data Sets
 authors:
 - Alberto Jaspe Villanueva
-- Omar A. Mures
+- admin
 - Emilio J. Padrón
 - Juan R. Rabuñal
 date: 2014-01-01

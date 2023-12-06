@@ -1,7 +1,7 @@
 ---
 title: Virtual reality and point-based rendering in architecture and heritage
 authors:
-- Omar A. Mures
+- admin
 - Alberto Jaspe
 - Emilio J. Padrón
 - Juan R. Rabuñal
