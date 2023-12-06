@@ -34,7 +34,7 @@ interests:
     icon_pack: fas
   - name: Computer Vision
     icon: eye
-    icon_pack: far
+    icon_pack: fas
   - name: Computer Graphics
     icon: cube
     icon_pack: fas
