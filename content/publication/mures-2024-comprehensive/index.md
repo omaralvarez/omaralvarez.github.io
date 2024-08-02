@@ -7,9 +7,10 @@ authors:
 - Emilio J. Padrón
 - Jose A. Iglesias-Guitian
 
-date: 2023-01-01
+date: 2024-02-01
 
-date: '2023-11-26T00:00:00Z'
+# Schedule page publish date (NOT publication's date).
+publishDate: "2023-11-26T00:00:00Z"
 
 publication_types:
 - article-journal
