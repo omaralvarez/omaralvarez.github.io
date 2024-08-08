@@ -8,7 +8,7 @@ authors:
 - admin
 - Jerónimo Puertas
 date: '2020-01-01'
-doi: 'https://doi.org/10.3390/w12113013'
+doi: '10.3390/w12113013'
 publishDate: '2023-11-06T10:13:39.534004Z'
 publication_types:
 - article-journal
