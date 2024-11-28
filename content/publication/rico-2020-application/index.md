@@ -19,6 +19,7 @@ tags:
 - Computer Vision
 - Hough Transformation
 - Artificial Neural Networks
+- Neural Networks
 - Fish Size
 - Stereo Vision
 - Eye Detection
