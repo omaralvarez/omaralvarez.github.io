@@ -31,6 +31,7 @@ summary: Aero-structural shape design and optimization of bridge decks rely on a
 
 tags:
 - CFD
+- Numerical Simulation
 - Neural Networks
 - Aeroelastic Force Interpolation
 - Time Series
