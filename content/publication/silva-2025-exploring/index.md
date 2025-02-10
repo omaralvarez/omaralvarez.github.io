@@ -1,5 +1,5 @@
 ---
-title: "PlayNet: real-time handball play classification with Kalman embeddings and neural networks"
+title: "Exploring the effects of synthetic data generation: a case study on autonomous driving for semantic segmentation"
 authors:
 - Manuel Silva
 - Antonio Seoane
