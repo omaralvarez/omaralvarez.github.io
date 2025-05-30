@@ -55,7 +55,7 @@ url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10937140
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Overview of our approach to create new synthetic image-labeled datasets using controlled generation models.'
+  caption: 'Overview of our approach to create new synthetic image-labeled datasets using controlled generation.'
   focal_point: "Right"
   preview_only: false
 
