@@ -42,9 +42,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    #- course: PhD in Artificial Intelligence
-    #  institution: Stanford University
-    #  year: 2012
+    - course: PhD in Artificial Intelligence
+      institution: Universidade da Coruña
+      year: 2025
     - course: MEng in High Performance Computing
       institution: Universidade da Coruña
       year: 2015
