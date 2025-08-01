@@ -10,7 +10,7 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2024-11-28T00:00:00Z"
-doi: "10.1007/s00371-023-02972-1"
+doi: "10.1111/mice.13381"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-11-28T00:00:00Z"
@@ -37,7 +37,7 @@ tags:
 - Time Series
 - Temporal Fusion Transformers
 - Deep Learning
-featured: true
+featured: false
 
 # links:
 # - name: ""
