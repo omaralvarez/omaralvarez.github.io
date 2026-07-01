@@ -8,7 +8,7 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 date: "2026-06-16T00:00:00Z"
-doi: "10.1111/mice.13526"
+doi: "10.1016/j.cacaie.2026.100125"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-07-01T00:00:00Z"
