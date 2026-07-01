@@ -11,7 +11,7 @@ date: "2026-06-16T00:00:00Z"
 doi: "10.1016/j.cacaie.2026.100125"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-07-01T00:00:00Z"
+publishDate: "2026-07-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
