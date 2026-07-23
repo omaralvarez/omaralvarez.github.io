@@ -42,11 +42,11 @@ featured: false
 # links:
 # - name: ""
 # url: "https://link.springer.com/article/10.1007/s00371-023-02972-1"
-url_pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mice.13526
+url_pdf: https://www.sciencedirect.com/science/article/pii/S109396872600263X/pdfft?md5=1b0dda6c0274105478148daa3b2a95f3&pid=1-s2.0-S109396872600263X-main.pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
-# url_project: ''
+url_project: https://bifis-sampling.github.io
 # url_slides: ''
 # url_source: 'https://link.springer.com/article/10.1007/s00371-023-02972-1'
 # url_video: ''

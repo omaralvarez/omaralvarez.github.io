@@ -49,7 +49,7 @@ url_pdf: https://www.sciencedirect.com/science/article/pii/S1093968726031117/pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
-# url_project: ''
+url_project: https://nevf-cfd.github.io
 # url_slides: ''
 # url_source: 'https://link.springer.com/article/10.1007/s00371-023-02972-1'
 # url_video: ''
