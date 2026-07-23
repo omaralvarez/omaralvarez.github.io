@@ -1,18 +1,17 @@
 ---
-title: "FABaS: Flow activity-biased importance sampling for deep learning image-based flow compression and prediction"
+title: "NeVF: Representing CFD simulations as neural flow volume fields for efficient compression, reconstruction, and analysis"
 authors:
 - admin
-- Abrahan Dopazo
 - Miguel Cid Montoya
 
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2026-07-20T00:00:00Z"
-doi: "10.1016/j.jweia.2026.106544"
+date: "2026-06-16T00:00:00Z"
+doi: "10.1016/j.cacaie.2026.100125"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-07-23T00:00:00Z"
+publishDate: "2026-07-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -20,13 +19,13 @@ publishDate: "2026-07-23T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Wind Engineering and Industrial Aerodynamics*"
-publication_short: "*J Wind Eng Ind Aerodyn*"
+publication: "*Computer-Aided Civil and Infrastructure Engineering*"
+publication_short: "*Comput-Aided Civ Infrastruct Eng*"
 
-abstract: Flow field compression is a key milestone for the feasible implementation of deep learning (DL) models at scale and the efficient storage of the flow datasets required for their training. Sampling strategies represent a fundamental step in vision-based compression techniques, directly conditioning both model accuracy and compression ratios. Their main objective is to accurately capture all necessary flow features for reproducing the phenomena of interest, which typically involves extracting wind-induced forces while simultaneously resolving flow characteristics in the near and far wakes. However, accurately identifying flow information in those regions requires conflicting sampling criteria. To address this challenge, this study proposes an importance sampling strategy guided by flow activity to automatically identify and focus on high-activity regions within the flow domain, combining Signed Distance Functions (SDFs) and vorticity fields. The proposed Flow Activity-Based Importance Sampling (FABaS) method achieves near-lossless compression ratios of 37718:1 while guaranteeing accurate reproduction of flow features, with a Mean Absolute Percentage Error (MAPE) of 0.063%, for precise surface force extraction in the boundary layer region and far wake. Consequently, this technique is a powerful tool for deep learning compression and prediction of flow field data.
+abstract: Computational Fluid Dynamics (CFD) simulations of civil engineering aerodynamics, which are commonly characterized by complex three-dimensional flow fields, generate massive spatiotemporal datasets, creating significant storage and computational bottlenecks that heavily constrain iterative engineering workflows. To overcome these challenges, this paper presents a novel two-stage compression framework that models three-dimensional flow field data using Neural Flow Volume Fields (NeVF). The first stage employs a distance field-biased flow importance sampling (3D BiFIS) strategy to reduce data dimensionality intelligently; this approach selectively extracts key near-wall flow information, guided by surface proximity to construct a “relaxed” image volume. Subsequently, a deep network, leveraging positional encodings and disentangled spatio-temporal attention mechanisms, highly compresses this volumetric representation. The effectiveness of the resulting flow field representation is evaluated using a comprehensive 3D Large-Eddy Simulation (LES) dataset of a bluff single-box bridge deck, characterized by complex, uncorrelated spanwise flow features. Results demonstrate high data compression rates of ∼7000:1 to ∼30,000:1 while preserving high-fidelity near-body aerodynamic flow features, enabling accurate estimation of wind-induced forces. Ultimately, our methodology streamlines efficient storage, reconstruction, and rapid analysis of exascale CFD datasets, unlocking potential new applications for deep learning emulation and data-intensive tasks, such as, uncertainty quantification and flow-driven aero-structural optimization. The neural compression code is available on GitHub.
 
 # Summary. An optional shortened abstract.
-summary: Flow field compression is a key milestone for the feasible implementation of deep learning (DL) models at scale and the efficient storage of the flow datasets required for their training. Sampling strategies represent a fundamental step in vision-based compression techniques, directly conditioning both model accuracy and compression ratios. Their main objective is to accurately capture all necessary flow features for reproducing the phenomena of interest, which typically involves extracting wind-induced forces while simultaneously resolving flow characteristics in the near and far wakes. However, accurately identifying flow information in those regions requires conflicting sampling criteria. To address this challenge, this study proposes an importance sampling strategy guided by flow activity to automatically identify and focus on high-activity regions within the flow domain, combining Signed Distance Functions (SDFs) and vorticity fields.
+summary: Computational Fluid Dynamics (CFD) simulations of civil engineering aerodynamics, which are commonly characterized by complex three-dimensional flow fields, generate massive spatiotemporal datasets. To overcome these challenges, this paper presents a novel two-stage compression framework that models three-dimensional flow field data using Neural Flow Volume Fields (NeVF). The first stage employs a distance field-biased flow importance sampling (3D BiFIS) strategy to reduce data dimensionality intelligently; this approach selectively extracts key near-wall flow information, guided by surface proximity to construct a “relaxed” image volume. Subsequently, a deep network, leveraging positional encodings and disentangled spatio-temporal attention mechanisms, highly compresses this volumetric representation. The effectiveness of the resulting flow field representation is evaluated using a comprehensive 3D Large-Eddy Simulation (LES) dataset of a bluff single-box bridge deck, characterized by complex, uncorrelated spanwise flow features.
 
 tags:
 - CFD
@@ -34,19 +33,19 @@ tags:
 - Neural Networks
 - Convolutional Networks
 - Transformers
-- URANS
+- LES
 - Compression
 - Image
 - Sampling
 - Implicit Neural Representations
 - Implicit Representations
 - Deep Learning
-featured: false
+featured: true
 
 # links:
 # - name: ""
 # url: "https://link.springer.com/article/10.1007/s00371-023-02972-1"
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0167610526002138/pdfft?md5=e9faeb36380fdbb06473eee686b1267f&pid=1-s2.0-S0167610526002138-main.pdf
+url_pdf: https://www.sciencedirect.com/science/article/pii/S1093968726031117/pdfft?md5=e938bb1a4863999573698c8be612eb7a&pid=1-s2.0-S1093968726031117-main.pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
