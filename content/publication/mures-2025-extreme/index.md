@@ -13,7 +13,7 @@ publication: '*Proceedings of the 9th European-African Conference on Wind Engine
 publication_short: 'In *EACWE*'
 abstract: The rise of exascale supercomputing has motivated an increase in high-fidelity CFD simulations, yielding massive datasets that can pose a problem for conventional data management and analysis pipelines. The detail in these simulations, often involving complex, non-linear turbulent flows, is essential for fueling innovations in fields like wind or aerospace engineering. The amount of data these simulations produce can overwhelm storage systems and negatively affect post-processing workflows, including iterative procedures such as design space exploration, optimization, and uncertainty quantification. This work proposes a novel sampling method harnessing the Signed Distance Function (SDF) concept and implicit compression based on neural networks for URANS CFD simulation data. Designed to alleviate the abovementioned problems, our approach achieves compression ratios of approximately 17000:1, reducing simulation data size from roughly 600 GB to 36 MB while maintaining low reproduction errors (in most cases below 0.5%). Given that image sampling is a fundamental step for any image-based flow field prediction model, the proposed SDF-based sampling method can significantly improve the accuracy and efficiency of such models, helping any application that relies on precise flow field predictions.
 # doi: '10.1145/3281464.3281469'
-# url_pdf: https://ruc.udc.es/dspace/bitstream/handle/2183/32255/Padron_Emilio_2018_In-transit_analysis_Apache_flink.pdf
+url_pdf: https://www.ntnu.edu/documents/1340831965/0/EACWE+2025+Proceedings.pdf/4f9300b0-3170-693f-bbc4-b4f3fd28955f?t=1750155312608
 tags: 
 - CFD
 - Numerical Simulation
