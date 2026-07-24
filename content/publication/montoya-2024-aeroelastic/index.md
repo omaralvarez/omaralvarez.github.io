@@ -46,7 +46,7 @@ url_pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mice.13381
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
-# url_project: ''
+url_project: aeroelastic-tft.github.io
 # url_slides: ''
 # url_source: 'https://link.springer.com/article/10.1007/s00371-023-02972-1'
 # url_video: ''
