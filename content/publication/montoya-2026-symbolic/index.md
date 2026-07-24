@@ -41,7 +41,7 @@ url_pdf: https://www.sciencedirect.com/science/article/pii/S2950601826000096/pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
-url_project: sr-flutter.github.io
+url_project: https://sr-flutter.github.io
 # url_slides: ''
 # url_source: 'https://link.springer.com/article/10.1007/s00371-023-02972-1'
 # url_video: ''
