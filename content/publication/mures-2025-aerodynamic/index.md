@@ -1,5 +1,5 @@
 ---
-title: An aerodynamic dataset for {AI}-driven wind-resistant design optimization of bridges
+title: An aerodynamic dataset for AI-driven wind-resistant design optimization of bridges
 authors:
 - Miguel Cid Montoya
 - admin
