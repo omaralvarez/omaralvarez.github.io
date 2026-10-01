@@ -17,12 +17,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Instructor
+role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Universidade da Coruña
     url: https://udc.gal/
+
+  - name: Deep Design Systems
+    url: https://www.deepdesignsystems.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Deep Learning, Computer Vision and Computer Graphics.
