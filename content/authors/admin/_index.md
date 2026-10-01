@@ -17,14 +17,16 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Assistant Professor
+# role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Universidade da Coruña
+    role: Assistant Professor
     url: https://udc.gal/
 
   - name: Deep Design Systems
+    role: Co-founder & CTO
     url: https://www.deepdesignsystems.com/
 
 # Short bio (displayed in user profile at end of posts)

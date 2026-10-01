@@ -49,10 +49,11 @@
           {{- end -}}
         </h2>
 
-        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+        <!-- {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }} -->
 
         {{ range $person.organizations }}
         <h3>
+          {{ with .role }}{{ . | markdownify | emojify }}<br>{{ end }}
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
           <span>{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
