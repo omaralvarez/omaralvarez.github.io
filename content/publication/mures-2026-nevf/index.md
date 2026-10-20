@@ -40,7 +40,7 @@ tags:
 - Implicit Neural Representations
 - Implicit Representations
 - Deep Learning
-featured: true
+featured: false
 
 # links:
 # - name: ""
