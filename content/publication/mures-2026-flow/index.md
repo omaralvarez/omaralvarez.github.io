@@ -1,18 +1,18 @@
 ---
-title: "FABaS: Flow activity-biased importance sampling for deep learning image-based flow compression and prediction"
+title: "Flow-driven prediction of bluff body fluid–structure interaction"
 authors:
 - admin
-- Abrahan Dopazo
+- Juan García-Tizón
 - Miguel Cid Montoya
 
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2026-07-20T00:00:00Z"
-doi: "10.1016/j.jweia.2026.106544"
+date: "2026-10-8T00:00:00Z"
+doi: "10.1016/j.jweia.2026.106613"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-07-23T00:00:00Z"
+publishDate: "2026-10-20T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -23,34 +23,33 @@ publication_types: ["article-journal"]
 publication: "*Journal of Wind Engineering and Industrial Aerodynamics*"
 publication_short: "*J Wind Eng Ind Aerodyn*"
 
-abstract: Flow field compression is a key milestone for the feasible implementation of deep learning (DL) models at scale and the efficient storage of the flow datasets required for their training. Sampling strategies represent a fundamental step in vision-based compression techniques, directly conditioning both model accuracy and compression ratios. Their main objective is to accurately capture all necessary flow features for reproducing the phenomena of interest, which typically involves extracting wind-induced forces while simultaneously resolving flow characteristics in the near and far wakes. However, accurately identifying flow information in those regions requires conflicting sampling criteria. To address this challenge, this study proposes an importance sampling strategy guided by flow activity to automatically identify and focus on high-activity regions within the flow domain, combining Signed Distance Functions (SDFs) and vorticity fields. The proposed Flow Activity-Based Importance Sampling (FABaS) method achieves near-lossless compression ratios of 37718:1 while guaranteeing accurate reproduction of flow features, with a Mean Absolute Percentage Error (MAPE) of 0.063%, for precise surface force extraction in the boundary layer region and far wake. Consequently, this technique is a powerful tool for deep learning compression and prediction of flow field data.
+abstract: Wind-resistant shape design exploration of civil engineering structures fundamentally relies on the accurate interpolation and extrapolation of bluff-body aerodynamic features. Current methodologies typically emulate global, integrated coefficients, such as flutter derivatives and admittance functions, in the frequency domain, adopting black-box models. However, they often fail to capture sudden aerodynamic transitions due to data sparsity and lack the phenomenological information inherent to the fluid–structure interaction (FSI). Wind engineering FSI problems typically deal with complex turbulent fluid fields characterized by multiple flow features and frequencies, time-varying flow domains with moving bodies, and, when designing, bluff body shape variations leading to different flow domains. This study proposes a novel deep learning strategy combining: (1) a dual-band flow superposition approach separating the prediction of flow fields for different frequency bands, (2) the BiFIS sampling strategy for shape-agnostic and accurate prediction of flow fields, and (3) a novel physics-informed FSE-U-Net architecture that conditions flow reconstruction on global physical parameters through feature-wise linear modulation (FiLM), ensuring physical consistency across variable flow regimes. The methodology is validated through the flow-driven prediction of frequency-dependent flutter derivatives using CFD-generated forced vibration flow fields of a bluff bridge deck subject to shape modifications. The code is available on GitHub.
 
 # Summary. An optional shortened abstract.
-summary: Flow field compression is a key milestone for the feasible implementation of deep learning (DL) models at scale and the efficient storage of the flow datasets required for their training. Sampling strategies represent a fundamental step in vision-based compression techniques, directly conditioning both model accuracy and compression ratios. Their main objective is to accurately capture all necessary flow features for reproducing the phenomena of interest, which typically involves extracting wind-induced forces while simultaneously resolving flow characteristics in the near and far wakes. However, accurately identifying flow information in those regions requires conflicting sampling criteria. To address this challenge, this study proposes an importance sampling strategy guided by flow activity to automatically identify and focus on high-activity regions within the flow domain, combining Signed Distance Functions (SDFs) and vorticity fields.
+summary: Wind-resistant shape design exploration of civil engineering structures fundamentally relies on the accurate interpolation and extrapolation of bluff-body aerodynamic features. Current methodologies typically emulate global, integrated coefficients, such as flutter derivatives and admittance functions, in the frequency domain, adopting black-box models. However, they often fail to capture sudden aerodynamic transitions due to data sparsity and lack the phenomenological information inherent to the fluid–structure interaction (FSI). This study proposes a novel deep learning strategy combining: (1) a dual-band flow superposition approach separating the prediction of flow fields for different frequency bands, (2) the BiFIS sampling strategy for shape-agnostic and accurate prediction of flow fields, and (3) a novel physics-informed FSE-U-Net architecture that conditions flow reconstruction on global physical parameters through feature-wise linear modulation (FiLM), ensuring physical consistency across variable flow regimes.
 
 tags:
 - CFD
 - Numerical Simulation
+- Deep Learning
 - Neural Networks
 - Convolutional Networks
-- Transformers
 - URANS
-- Compression
+- Fluid-structure Interaction
+- Flow Prediction
 - Image
-- Sampling
-- Implicit Neural Representations
-- Implicit Representations
-- Deep Learning
-featured: false
+- FiLM
+- Butterworth Filter
+featured: true
 
 # links:
 # - name: ""
 # url: "https://link.springer.com/article/10.1007/s00371-023-02972-1"
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0167610526002138/pdfft?md5=e9faeb36380fdbb06473eee686b1267f&pid=1-s2.0-S0167610526002138-main.pdf
+url_pdf: https://www.sciencedirect.com/science/article/pii/S0167610526002825/pdfft?md5=20b8c1ce2709a8d501824f81241ac4dd&pid=1-s2.0-S0167610526002825-main.pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
-url_project: https://fabas-sampling.github.io
+url_project: https://fse-u-net.github.io
 # url_slides: ''
 # url_source: 'https://link.springer.com/article/10.1007/s00371-023-02972-1'
 # url_video: ''
@@ -58,7 +57,7 @@ url_project: https://fabas-sampling.github.io
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'System overview of the proposed image sampling framework.'
+  caption: 'System overview of the proposed flow prediction framework.'
   focal_point: "Right"
   preview_only: false
 
